@@ -1,0 +1,104 @@
+.question-page-question{
+    text-align: center;
+    font-size: larger;
+    color: $paltel-blue;
+    font-weight: bold;
+    width: 50%; 
+    margin: auto;
+}
+.question-page-answer{
+    text-align: right;
+    width: 90%; 
+    margin: auto;
+}
+.question-page-details{
+    text-align: right;
+    width: 90%; 
+    margin: auto;
+}
+.question-file-viewer{
+    display: block;
+    margin: auto;
+    width: 70%;
+    overflow: scroll;
+    height: 100vh; 
+}
+.question-page-related-questions{
+    text-align: right;
+    margin: 5%;
+}
+.question-page-related-questions-title{
+    color: $paltel-blue; 
+    text-align: right;
+    font-weight: bold;
+}
+.question-page-commentSection{
+    display: flex;
+    flex-direction: column;
+}
+.question-page-commentSection-out{
+    display: flex;
+    justify-content: right;
+    margin-top: 5%; 
+}
+.question-page-commentSection-header{
+    text-align: right;
+    width: fit-content;
+    margin-right: 5%;
+    color: $paltel-blue;
+}
+.question-page-commentSection-header1{
+    text-align: right;
+    width: 90%;
+    margin: auto; 
+}
+.question-page-commentSection-form{
+   display: flex;
+   text-align: right;
+   justify-content: right;
+   margin-top: 1%;
+   //width: 100%;
+   margin-right: 5%; 
+}
+.question-page-commentSection-button{
+    padding: 10px;
+    height: fit-content;
+    margin-top: 7.5%;
+    color: white;
+    background-color: $paltel-blue; 
+    border-radius: 5px;
+    border:none;
+}
+.question-page-commentSection-area{
+    width: 53%;
+    height: 20vh;
+    margin-left: 2%;
+    text-align: right;
+}
+.question-page-commentSection-counter{
+    margin-right: 4px;
+    //margin-top: 1px;
+    font-size: large;
+    padding:3px 5px;
+    border-radius: 2px;
+    color: white;
+    background-color: $d-dark-gray;
+}
+.comment{
+    text-align: right; 
+    margin-left: 45%; 
+    margin-bottom: 2%; 
+    width: 50%; 
+    background-color: $l-light-gray; 
+    padding: 2%; 
+    border-radius: 5px; 
+}
+.right{
+    justify-content: right; 
+    border-bottom : 1px solid black ;
+    width: 50%; 
+    margin-left: 50%; 
+}
+.comment-body{
+    margin-top: 2%; 
+}

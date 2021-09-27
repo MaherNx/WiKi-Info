@@ -1,0 +1,14 @@
+.admin-header{
+
+   display: flex; 
+   flex-direction: row; 
+   a{
+    margin: auto; 
+    // margin-bottom:1.5%;
+    // margin-bottom:1.5%;
+    color: white; 
+    font-size: 20pt; 
+   }
+   margin-bottom: 2%;
+   background-color: darken(lightgray, 10%);
+}

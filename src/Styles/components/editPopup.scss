@@ -1,0 +1,39 @@
+.edit-popup-outer{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.2);
+    margin-bottom: 10px;
+}
+.edit-popup-inner{
+    border-radius: 2%;
+    position: absolute;
+    left: 30%;
+   // bottom: .1px;
+    background-color: white;
+    height: fit-content;
+    width: 42%;
+    overflow-y: scroll;
+    margin: 10px auto;
+    padding: 1%;
+}
+.admin-form-input-answer-customized{
+   height: 100px;
+   overflow: scroll;
+}
+.edit-popup-inner-top{
+    display: flex;
+    justify-content: space-between;
+}
+.edit-popup-inner-title{
+    color: $paltel_blue;
+}
+.edit-popup-inner-close{
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    color: $paltel_blue;
+    font-weight: bolder;
+    font-size: larger;
+}

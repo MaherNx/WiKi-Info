@@ -1,0 +1,33 @@
+.input-tag__div{
+    overflow: scroll;
+    width: 100%;
+}
+.input-tag__tags__input{
+    width: 100%; 
+}
+.input-tag__tags{
+    display: inline-flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    margin:0;
+    width: 100%;
+}
+.input-tag__tagsــtag{
+    display: flex;
+    background-color: $paltel-blue;
+    margin-left: 2%;
+    color: white;
+    padding: 1% 2%;
+    // width: 50px;  
+    // height: 50px;
+    border-radius: 1000px;
+    span{
+        margin-right: 20px;
+        cursor: pointer;
+    }
+}
+.input-tag__tags__input_in, .input-tag__tags__input_in:focus-visible{
+    width: 100%; 
+    border: none; 
+    text-align: right;
+}

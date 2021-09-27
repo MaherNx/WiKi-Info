@@ -1,0 +1,28 @@
+.Comment{
+    border: 1px solid $d-dark-gray;
+    border-radius: 5px;
+    width: 50%;
+    margin: 3%;
+    padding: 2%;
+
+}
+.comment-addedBy{
+    display: flex;
+}
+.comment-icon{
+    margin-right: 10px;
+    margin-left: 10px; 
+}
+.comment-button{
+    border: none;
+    color: white;
+    margin-right: 10px;
+    padding: 2%;
+    border-radius: 5px;
+}
+.accept{
+    background-color: $paltel-blue ;
+}
+.deny{
+    background-color: #f54197;
+}

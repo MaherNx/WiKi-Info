@@ -1,0 +1,88 @@
+.admin-form{
+  width: 50%; 
+  margin: auto;
+}
+.admin-form-in-title{
+  font-size: 2rem;
+  color: $paltel-blue;
+  width: 100%;
+  text-align: center;
+}
+.admin-form-in{
+     margin: 5% auto 0 auto;
+     border: 1px solid #AAAAAA;
+     border-radius: 6px;
+    
+     width: 100%;
+     display: flex;
+}
+.amin-form-icon-div{
+  width: 10%;
+  padding: 1%;
+  background-color: $paltel-blue;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.admin-form-icon{
+  margin-left: 20%;
+  color: white;
+}
+.big{
+  margin-top: 7vh;
+}
+.admin-form-input{
+  width: 90%;
+  border: none;
+  border-radius: 5px;
+  padding: 1%;
+  padding-left: 5%;
+  text-align: right;
+}
+.admin-form-input-select{
+  text-indent: 90%;
+}
+.admin-form-input-select::after{
+  display: none;
+}
+select:invalid{
+  color: #AAAAAA;
+  text-indent: 90%;
+}
+input::placeholder{
+  color: #AAAAAA;
+}
+textarea::placeholder{
+  color: #AAAAAA;
+}
+.admin-form-button-outer{
+  width: 50%; 
+  margin: 5% auto;
+}
+.admin-form-button{
+  width: 100%;
+  background-color: $paltel-blue;
+  border: none;
+  color: white;
+  height: 6vh;
+  border-radius:90px;
+
+}
+////////////////////////////////////
+.admin-form-input-answer{
+  height: 20vh;
+  vertical-align: top;
+  word-break: break-all;
+  margin: 0;
+}
+
+.admin-view-header{
+  margin-left: 40%; 
+  color: $purple;
+ margin-bottom: 5%;
+}
+.admin-view-header-title{
+ color: $purple;
+}
+.admin-view-header-title:hover{
+ color: darken($color: $purple, $amount: 15%);
+}

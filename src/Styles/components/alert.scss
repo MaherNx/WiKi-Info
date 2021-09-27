@@ -1,0 +1,41 @@
+.alert-heading{
+    font-size: 15pt;
+    margin-bottom: 0;
+    vertical-align: bottom;
+    //margin-top: 1.1%;
+    // margin-left:80%; 
+    text-align: right;
+}
+.alert{
+    padding: 0;
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 0;
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+.alert-success{
+    .close{
+        color: $green;
+   
+   }
+}
+.alert-danger{
+    .close{
+        color: $red;
+    }
+}
+.successful-alert-custom{
+    .alert{
+        width: 100% !important;
+        margin:auto;
+        position: fixed;
+        top: 0;
+    }
+    .alert-heading{
+        margin-top: .5%;
+     
+    }
+
+}

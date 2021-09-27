@@ -1,0 +1,65 @@
+.header-view{
+    display:flex; 
+    flex-direction: horizontal; 
+    justify-content: space-between;
+    padding-top: 3%;
+
+}
+.header-right-side{
+    display: flex;
+    width: fit-content;
+    justify-content: right;
+}
+.header-left-side{
+
+    width: fit-content;
+}
+
+.header-logout-button{
+    height:fit-content; 
+   // margin: auto ; 
+    background-color: transparent; 
+   // color: white; 
+    border: none; 
+    padding: 0;
+    margin-left:15px;
+    margin-right:15px;
+    //margin-top: 3%;
+}
+.header-view-username{
+   // margin-top: 5%;
+    color: $paltel-blue;
+}
+.header-user-icon{
+   // margin-top: 5%;
+    margin-left:10px;
+}
+.logo-img-header{
+    margin: 0 0 0 20px;
+    width: 80px;
+}
+.header-admin-link{
+    text-decoration: none;
+    color: #212529;
+}
+.header-admin-link:hover{
+    text-decoration: none;
+    color: #212529;
+}
+///////////////////////drop down menu stlyes///////////////////////
+.btn-primary, .btn-primary:active, .btn-primary:focus, .btn-primary:hover, .show>.btn-primary.dropdown-toggle, .show>.btn-primary.dropdown-toggle:focus, .show>.btn-primary.dropdown-toggle:focus   {
+     color: black; 
+    background-color: inherit; 
+    border: none; 
+    padding: 0;
+    box-shadow: none !important;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+.dropdown-item.active, .dropdown-item:active{
+    color: black;
+    text-decoration: none;
+    background-color: #e9ecef;
+}

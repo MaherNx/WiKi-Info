@@ -1,0 +1,93 @@
+.admin-view-table{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 5%;
+    thead{ 
+        h3{
+            color: $paltel-blue;
+            text-align: left;
+            padding: 5px;
+            }
+    }
+    th{
+        padding: 2%;
+        border-radius: 2%;
+        color: black;
+        background-color: #F4F7FC;
+        text-align: left;
+        padding-left:20px;
+    }
+    tr{
+        td{
+            padding: 2%;
+            textarea{
+                border: none; 
+                background-color: inherit;
+                height: fit-content;
+                text-align: right;
+            }
+            select{
+                background-color: inherit;
+            }
+        }
+        input{
+            border: none;
+            width:90%;
+        }
+    }
+    tr:nth-child(even) {
+        input{
+            background-color: #F4F7FC;
+        }
+        td{
+           
+            background-color: #F4F7FC;
+        }
+    }
+    
+}
+ .admin-view-button{
+     background-color: $paltel-blue;
+     color: white;
+     border: none;
+     border-radius: 5px;
+     padding: 10px 15px; 
+ }
+ .admin-view-button-control{
+     background-color: inherit;
+    color: $paltel-blue;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10%;
+}
+ .admin-view-header{
+     width: 50%; 
+     margin: auto;
+     color: $paltel-blue;
+     text-align: center;
+     margin-bottom: 5%;
+ }
+ .admin-view-header-title,  .admin-view-header-title:hover{
+    color: white;
+    text-decoration: none;
+ }
+
+.close{
+background-color: transparent;
+border: none; 
+ }
+.admin-form-edit-role,.file-id {
+    border: none; 
+}
+.file-view-button, .file-view-button:hover{
+    color: white;
+    text-decoration: none;
+}
+.nav-link{
+    color: $paltel_blue;
+}
+.nav-tabs{
+    justify-content: space-around;
+}
+
+

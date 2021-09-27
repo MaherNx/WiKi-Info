@@ -1,0 +1,22 @@
+
+.app-body{
+//     display: flex;
+//     justify-content:space-between;
+}
+.app-body-search{
+    display: flex;
+    flex-direction: column;
+    //height: 100%;
+   // position: fixed;
+}
+.app-body-left{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.app-body-search-title{
+    width: 70%; 
+    color: $paltel-blue;
+    margin: 0 auto 10px auto;
+    text-align: center;
+}

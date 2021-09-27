@@ -1,0 +1,24 @@
+//@import "~bootstrap/scss/bootstrap";
+@import './base/settings'; 
+@import './components/card.scss';
+@import './components/header.scss'; 
+@import './components/search.scss';
+@import './components/app.scss';
+@import './components/container.scss';
+@import './components/filters.scss';
+@import './components/adminForm.scss'; 
+@import './components/featured.scss'; 
+@import './components/loginStyles.scss';
+@import './components/adminView.scss';
+@import './components/adminHeader.scss';
+@import './components/alert.scss';
+@import './components/special-card.scss';
+@import './components/inputTag.scss'; 
+@import './components/question-page.scss';
+@import './components/editPopup.scss';
+@import './components/comments.scss'; 
+
+*{
+    font-family:'neo sans arabic';
+    //font-size: 16pt;
+}

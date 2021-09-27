@@ -1,0 +1,32 @@
+.special-card-container{
+    display: flex;
+    justify-content: space-between;
+}
+.special-card-icon{
+    color: $paltel_blue;
+    margin-top: 5px;
+}
+.minus-icon{
+    color: white;
+}
+.clicked-card{
+    border: 1px solid $l-light-gray;
+    border-radius: 10px;
+    background-color: $paltel-blue;
+    padding:1%;
+    margin: 10px auto;
+    width: 90%;
+    .special-mcard-title{
+        color: white;
+    }
+    .mcard-answer{
+        color: white;
+    }
+}
+
+.cardd{
+    .special-mcard-title{
+        color: $d-dark-gray;
+    }
+}
+
