@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/WiKi-Info/static/css/main.e1c988af.chunk.css",
+    "main.js": "/WiKi-Info/static/js/main.c6f52ccc.chunk.js",
+    "main.js.map": "/WiKi-Info/static/js/main.c6f52ccc.chunk.js.map",
+    "runtime-main.js": "/WiKi-Info/static/js/runtime-main.ddaa57e4.js",
+    "runtime-main.js.map": "/WiKi-Info/static/js/runtime-main.ddaa57e4.js.map",
+    "static/css/2.cce5f801.chunk.css": "/WiKi-Info/static/css/2.cce5f801.chunk.css",
+    "static/js/2.2b7d38e4.chunk.js": "/WiKi-Info/static/js/2.2b7d38e4.chunk.js",
+    "static/js/2.2b7d38e4.chunk.js.map": "/WiKi-Info/static/js/2.2b7d38e4.chunk.js.map",
+    "static/js/3.95f6e757.chunk.js": "/WiKi-Info/static/js/3.95f6e757.chunk.js",
+    "static/js/3.95f6e757.chunk.js.map": "/WiKi-Info/static/js/3.95f6e757.chunk.js.map",
+    "index.html": "/WiKi-Info/index.html",
+    "static/css/2.cce5f801.chunk.css.map": "/WiKi-Info/static/css/2.cce5f801.chunk.css.map",
+    "static/css/main.e1c988af.chunk.css.map": "/WiKi-Info/static/css/main.e1c988af.chunk.css.map",
+    "static/js/2.2b7d38e4.chunk.js.LICENSE.txt": "/WiKi-Info/static/js/2.2b7d38e4.chunk.js.LICENSE.txt",
+    "static/media/Delete-Icon.svg": "/WiKi-Info/static/media/Delete-Icon.491e0560.svg",
+    "static/media/Dislike-Icon.svg": "/WiKi-Info/static/media/Dislike-Icon.d73f5429.svg",
+    "static/media/Group 8.png": "/WiKi-Info/static/media/Group 8.f82ab7d3.png",
+    "static/media/Like-Icon.svg": "/WiKi-Info/static/media/Like-Icon.0043e856.svg",
+    "static/media/Role-icon.svg": "/WiKi-Info/static/media/Role-icon.b6443cf3.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ddaa57e4.js",
+    "static/css/2.cce5f801.chunk.css",
+    "static/js/2.2b7d38e4.chunk.js",
+    "static/css/main.e1c988af.chunk.css",
+    "static/js/main.c6f52ccc.chunk.js"
+  ]
+}
